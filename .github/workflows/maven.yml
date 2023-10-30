@@ -27,6 +27,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file FoodDeliverySystem/pom.xml
+      run: mvn -B package --file FoodDeliveryPlatform/pom.xml
 
     
